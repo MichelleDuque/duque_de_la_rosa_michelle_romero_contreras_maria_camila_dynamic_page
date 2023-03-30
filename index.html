@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <!-- in mobile set initial zoom level of page to 100%, set site size to equal device width not a larger canvas that is shrunk down-->
+    <meta name="viewport" content="initial-scale=1.0, width=device-width">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito&display=swap" rel="stylesheet">
+    <title>Dr Nut Responsive</title>
+    <!-- Link to reset or normalize before main.css
+    only choose one -->
+    <link href="css/normalize.css" rel="stylesheet">
+    <link href="css/grid.css" rel="stylesheet">
+    <link href="css/main.css" rel="stylesheet">
+</head>
+<body>
+    <h1 class="hidden">Dr Nut Official Website</h1>
+    <header class="grid-con" id="main-header">
+        <nav class="box col-span-full m-col-start-5 m-col-end-10 l-col-start-4 l-col-end-10 xl-col-start-4 xl-col-end-10" id="main-nav">
+            <h2 class="hidden">Header Navigation</h2> Nav
+        </nav>
+        <div class="box col-start-1 col-end-3 m-col-start-2 m-col-end-5 l-start-end-2 l-col-end-4 xl-col-start-2 xl-col-end-3" id="main-logo">
+            Logo
+        </div>
+
+        <div class="box l-col-start-10 l-col-end-11 box xl-col-start-10 xl-col-end-11" id="main-icon1">
+            Icon 1
+        </div>
+        <div class="box l-col-start-11 l-col-end-12 box xl-col-start-11 xl-col-end-12" id="main-icon2">
+            Icon 2
+        </div>
+
+        <div class="box col-start-4 col-end-4 m-col-start-10 m-col-end-12" id="burger-nav">
+            Bur
+        </div>
+    </header>
+
+    <main>
+
+        <section class="grid-con" id="product-hero">
+            <h2 class="hidden">Dr Nut Brewing Process</h2>
+            <div class="col-span-full m-col-start-2 m-col-end-7 l-col-start-2 l-col-end-7 xl-col-start-2 xl-col-end-7 product-box">
+                <div id="title-product">Dr Nut Brewing Process</div>
+                <div id="text-product">Text</div>
+            </div>
+            <div class="box  col-span-full m-col-start-8 m-col-end-12 l-col-start-8 l-col-end-12 xl-col-start-8 xl-col-end-12" id="product-image"><img
+                sizes="(max-width: 322px) 100vw, 322px"
+                srcset="
+                images/triada_busyjv_c_scale,w_200.png 200w,
+                images/triada_busyjv_c_scale,w_303.png 303w,
+                images/triada_busyjv_c_scale,w_322.png 322w"
+                src="images/triada_busyjv_c_scale,w_322.png"
+                alt=""></div>
+        </section>
+
+        <section class="grid-con" id="product-details">
+            <h2 class="hidden">Product Details</h2>
+            <div class="box col-start-2 col-end-4 m-col-start-4 m-col-end-10 l-col-start-4 l-col-end-10 xl-col-start-4 xl-col-end-10" id="product-details-box-1"><img
+                sizes="(max-width: 1600px) 100vw, 1600px"
+                srcset="
+                images/IMG2---dynamic_tktw1u_c_scale,w_200.jpg 200w,
+                images/IMG2---dynamic_tktw1u_c_scale,w_754.jpg 754w,
+                images/IMG2---dynamic_tktw1u_c_scale,w_1172.jpg 1172w,
+                images/IMG2---dynamic_tktw1u_c_scale,w_1600.jpg 1600w"
+                src="images/IMG2---dynamic_tktw1u_c_scale,w_1600.jpg"
+                alt="Dr nut ad"></div>
+            <div class="col-span-full m-col-start-2 m-col-end-12 l-col-start-2 l-col-end-12 xl-col-start-2 xl-col-end-12 characters" id="product-details-box-2">
+                        <div>
+                            <a href="#lightbox" id="photo1" data-member="beer" data-member="bgImg" class="bgImg">
+                                <div class="sprite" id="beer"></div>
+                                <img src="images/beerprocess-03.svg" alt="beer" id="beer_img">
+                            </a>
+                         <div>
+                        <div class="flex-container">
+                        <div id="process1" class="flex-child">
+                            <a href="#lightbox" data-member="mashing" class="bgImg" data-member="bgImg" class="bgImg">
+                                <div class="sprite" id="mashing"></div>
+                                <img src="images/beerprocess_Artboard 1-01.svg" alt="mashing" class="size-process" id="mashing_img">
+                            </a>
+                        </div>
+                        <div id="process2" class="flex-child">   
+                            <a href="#lightbox" data-member="malting" class="bgImg">
+                            <div class="sprite" id="malting"></div>
+                            <img src="images/beerprocess-02.svg" alt="malting" class="size-process" id="malting_img">
+                            </a>
+                        </div>
+                        </div>  
+                        <div class="flex-container"> 
+                            <div class="flex-child">
+                                <a href="#lightbox"  data-member="fermentation" class="bgImg">
+                                    <div class="sprite" id="fermentation"></div>
+                                    <img src="images/beerprocess_Artboard 1-05.svg" alt="fermetation" id="fermetation_img">
+                                </a>
+                            </div>
+                            <div class="flex-child">
+                                <a href="#lightbox" data-member="boiling" class="bgImg">
+                                    <div class="sprite" id="boiling"></div>
+                                    <img src="images/beerprocess_Artboard 1-06.svg" alt="boiling" id="boiling_img">
+                                </a>
+                            </div>
+                        </div>
+                        <div>
+                            <a href="#lightbox" data-member="aging" class="bgImg">
+                                <div class="sprite" id="aging"></div>
+                                <img src="images/beerprocess-04.svg" alt="aging" id="aging_img">
+                            </a>
+                        </div>
+                </div>
+        </section>
+    </main>
+
+
+    <footer class="grid-con">
+        <nav class="box col-start-1 col-end-4 m-col-start-2 m-col-end-9 l-col-start-2 l-col-end-8 xl-col-start-2 xl-col-end-8" id="nav-footer"><h2 class="hidden">Footer Navigation</h2>Nav</nav>
+        
+        <div class="box col-start-1 col-end-3 m-col-start-2 m-col-end-6 l-col-start-2 l-col-end-4 xl-col-start-2 xl-col-end-4" id="footer-newsletter">Newsletter</div>
+        <div class="box col-span-full m-col-start-2 m-col-end-12 l-col-start-2 l-col-end-6 xl-col-start-2 xl-col-end-6" id="signup-footer">Sign Up</div>
+        <div class="box col-start-3 col-end-5 m-col-start-10 m-col-end-12 l-col-start-6 l-col-end-8 xl-col-start-6 xl-col-end-8" id="button-footer">Button</div>
+        <div class="box col-start-3 col-end-5 m-col-start-10 m-col-end-12" id="text-footer">Text</div>
+        <div class="box col-start-2 col-end-2 m-col-start-9 m-col-end-9 l-col-start-9 l-col-end-9 xl-col-start-9 xl-col-end-9 socialmedia-footer">IN</div>
+        <div class="box col-start-3 col-end-3 m-col-start-10 m-col-end-10 l-col-start-10 l-col-end-10 xl-col-start-10 xl-col-end-10 socialmedia-footer">FB</div>
+        <div class="box col-start-4 col-end-4 m-col-start-11 m-col-end-11 l-col-start-11 l-col-end-11 xl-col-start-11 xl-col-end-11 socialmedia-footer">WP</div>
+        <div class="box col-start-2 col-end-5 m-col-start-6 m-col-end-12 l-col-start-6 l-col-end-12 xl-col-start-6 xl-col-end-12 socialmedia-footer" id="terms-footer">Terms & Conditions</div>
+    </footer>
+
+    
+    <!-- lightbox goes here -->
+    <section class="lightbox" id="lightbox">
+        <!-- close button -->
+        <a href="" class="lightbox_close">x</a>
+        
+
+        <article class="flex-container">
+            <div class="flex-child">
+            <img src="images/aging_qb1ogf_c_scale,w_1200.jpg" alt="" id="imageprocess">
+            </div>
+            <div id="text-lightbox" class="flex-child">
+            <h3 class="lb_heading">Captain America - The First Avenger</h3>
+
+            <p class="lb_text">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio distinctio praesentium numquam quo quisquam sit vitae sed possimus animi harum nihil eum, ut rem sint. Omnis id natus asperiores blanditiis!
+            </p>
+            </div>
+        </article>
+    </section>
+
+
+    <script src="js/process.js"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>
