@@ -1,0 +1,776 @@
+@media screen and (min-width:320px) {
+
+    /* CSS Guide
+    1. Main Nav
+    2. Hero Image
+    3. Products
+    4. Video
+    5. History
+    6. Footer */
+
+    /* 1. Main Nav */
+
+    #main-header{
+        background-color: #E09026;
+        height: 83px;
+    }
+
+    #main-logo{
+        order: -1;
+        height: 83px;
+        margin: 0px;
+    }
+
+    #burger-nav{
+        height: 83px;
+        margin: 0px;
+    }
+
+    #main-icon1{
+        display: none;
+    }
+    #main-icon2{
+        display: none;
+    }
+    #main-nav{
+        display: none;
+    }
+
+    /* 2. Hero Image */
+
+    #hero-image{
+        height: 529px;
+    }
+    #hero-con{
+        height: 805px;
+        background-color: #822021;
+        align-items: center;
+    }
+
+    /* 3. Products */
+
+    #products{
+        height: 1792px;
+        background-color: #208281;
+        align-items: center;
+    }
+    #products h2{
+        height: 88px;
+    }
+    .product-complete{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        color: rgb(27, 27, 27);
+        text-align: center;
+        margin-top: 10px;
+        margin-bottom:10px;
+    }
+    .box-products{
+        height: 383px;
+        background-color: brown;
+        width: 100%;
+        border-radius: 5px;
+        margin-bottom: 25px;  
+        padding: 20px;
+    }
+    .button-products{
+        height: 58px;
+        background-color: #d94b4b;
+        width: 50%;
+        border-radius: 5px;
+        padding: 20px;
+    }
+
+    /* 4. Video */
+
+    #video-box{
+        padding: 0px;
+    }
+    #video-full{
+        height: 775px;
+        margin: 0px;
+        padding: 20px;
+    }
+
+    /* 5. History */
+
+    #history{
+        background-color: brown;
+        height: 977px;
+        align-items: center;
+    }
+    #history-title{
+        height: 81px;
+    }
+    #history-image{
+        height: 299px;
+    }
+    #text-history{
+        height: 215px;
+        background-color: bisque;
+        width: 100%;
+        margin-bottom: 20px;
+        border-radius: 5px;
+        padding: 20px;
+    }
+    #button-history{
+        height: 49px;
+        background-color: bisque;
+        width: 50%;
+        border-radius: 5px;
+        padding: 20px;
+    }
+
+    /* 6. Footer */
+
+    footer{
+        height: 727px;
+        background-color: blanchedalmond;
+        align-items: center;
+    }
+    #nav-footer{
+        height: 49px;
+    }
+    #footer-newsletter{
+        height: 49px;
+    }
+    #signup-footer{
+        height: 49px;
+    }
+    #button-footer{
+        height: 49px;
+    }
+    #text-footer{
+        height: 40px;
+    }
+    .socialmedia-footer{
+        height: 50px;
+    }
+    #terms-footer{
+        height: 48px;
+    }
+
+    /* Contact us */
+
+    #contact-us{
+        background-color: #208281;
+        height: 1193px;
+        align-items: center;
+    }
+
+    #contact-form{
+        height: 539px;
+    }
+
+    #contact-image{
+        height: 450px;
+    }
+}
+
+
+@media screen and (min-width:768px) {
+
+    /* CSS Guide
+    1. Main Nav
+    2. Products
+    3. Video
+    4. History
+    5. Footer */
+
+    /* 1. Main Nav */
+
+    #main-logo{
+        order: -1;
+    }
+
+    /* 2. Products */
+
+    #products{
+        height: 1144px;
+        background-color: #208281;
+    }
+    #product-title{
+        height: 88px;
+    }
+    .box-products{
+        height: 294px;
+        background-color: brown;
+    }
+    .button-products{
+        height: 58px;
+        background-color: #d94b4b;
+    }
+
+    /* 3. Video */
+
+    #video-full{
+        height: 788px;
+    }
+
+    /* 4. History */
+
+    #history{
+        background-color: brown;
+        height: 1200px;
+    }
+    #history-title{
+        height: 45px;
+    }
+    #history-image{
+        height: 389px;
+    }
+    #text-history{
+        height: 341px;
+    }
+    #button-history{
+        height: 77px;
+    }
+
+    /* 5. Footer */
+
+    footer{
+        height: 634px;
+        background-color: blanchedalmond;
+    }
+    #nav-footer{
+        height: 42px;
+    }
+    #footer-newsletter{
+        height: 42px;
+    }
+    #signup-footer{
+        height: 48px;
+    }
+    #button-footer{
+        height: 41px;
+    }
+    #text-footer{
+        height: 41px;
+    }
+    .socialmedia-footer{
+        height: 42px;
+    }
+    #terms-footer{
+        height: 42px;
+    }
+
+     /* Contact us */
+
+    #contact-us{
+        height: 1320px;
+    }
+    
+    #contact-image{
+        height: 586px;
+    }
+
+}
+
+@media screen and (min-width:1200px) {
+
+      /* CSS Guide
+    1. Main Nav
+    2. Hero Image
+    3. Products
+    4. Video
+    5. History
+    6. Footer */
+
+    /* 1. Main Nav */
+
+    #main-header{
+        background-color: #E09026;
+        height: 111px;
+    }
+
+    #burger-nav{
+        display: none;
+    }
+
+    #main-logo{
+        height: 111px;
+    }
+    #main-icon1{
+        display: block;
+        height: 111px;
+        margin: 0;
+    }
+    #main-icon2{
+        display: block;
+        height: 111px;
+        margin: 0;
+    }
+    #main-nav{
+        display: block;
+        height: 111px;
+        margin: 0;
+    }
+
+    /* 2. Hero Image */
+
+    #hero-image{
+        height: 505px;
+    }
+    #hero-con{
+        height: 800px;
+        background-color: #822021;
+    }
+
+    /* 3. Products */
+
+    #products{
+        height: 1753px;
+        background-color: #208281;
+    }
+    #product-title{
+        height: 136px;
+    }
+    .box-products{
+        height: 451px;
+        background-color: brown;
+    }
+    .button-products{
+        height: 90px;
+        background-color: #d94b4b;
+    }
+
+    /* 4. Video */
+
+    #video-full{
+        height: 972px;
+    }
+
+    /* 5. History */
+
+    #history{
+        background-color: brown;
+        height: 891px;
+    }
+    #history-title{
+        height: 112px;
+    }
+    #history-image{
+        height: 548px;
+    }
+    #text-history{
+        height: 409px;
+    }
+    #button-history{
+        height: 90px;
+    }
+
+    /* 6. Footer */
+
+    footer{
+        height: 481px;
+        background-color: blanchedalmond;
+    }
+    #nav-footer{
+        height: 65px;
+    }
+    #footer-newsletter{
+        height: 65px;
+    }
+    #signup-footer{
+        height: 65px;
+    }
+    #button-footer{
+        height: 65px;
+    }
+    #text-footer{
+        display: none;
+    }
+    .socialmedia-footer{
+        height: 65px;
+    }
+    #terms-footer{
+        height: 65px;
+    }
+
+    /* Contact us */
+
+    #contact-us{
+        height: 794px;
+    }
+    
+    #contact-form{
+        height: 586px;
+    }
+    
+    #contact-image{
+        height: 586px;
+    }
+    
+}
+
+@media screen and (min-width:1920px) {
+
+      /* CSS Guide
+    1. Hero Image
+    2. Products
+    3. History
+    4. Footer */
+
+    /* 1. Hero Image */
+
+    #hero-image{
+        height: 1299px;
+    }
+    #hero-con{
+        height: 1594px;
+        background-color: #822021;
+    }
+
+    /* 2. Products */
+
+    #products{
+        height: 2063px;
+        background-color: #208281;
+    }
+    #product-title{
+        height: 136px;
+    }
+    .box-products{
+        height: 451px;
+        background-color: brown;
+    }
+    .button-products{
+        height: 125px;
+        background-color: #d94b4b;
+    }
+
+    /* 3. History */
+    #history{
+        background-color: brown;
+        height: 1086px;
+    }
+    #history-title{
+        height: 112px;
+    }
+    #history-image{
+        height: 548px;
+    }
+    #text-history{
+        height: 352px;
+    }
+    #button-history{
+        height: 124px;
+    }
+
+    /* 4. Footer */
+
+    footer{
+        height: 651px;
+        background-color: blanchedalmond;
+    }
+    #nav-footer{
+        height: 104px;
+    }
+    #footer-newsletter{
+        height: 104px;
+    }
+    #signup-footer{
+        height: 104px;
+    }
+    #button-footer{
+        height: 104px;
+    }
+    .socialmedia-footer{
+        height: 104px;
+    }
+    #terms-footer{
+        height: 104px;
+    }
+
+     /* Contact us */
+
+    #contact-us{
+        height: 1270px;
+    }
+        
+    #contact-form{
+        height: 938px;
+    }
+        
+    #contact-image{
+        height: 938px;
+    }
+}
+
+
+ /* Product */
+
+ @media screen and (min-width:320px) {
+    #product-hero{
+        background-color: brown;
+        height: 1251px;
+        align-items: center;
+    }
+
+
+    #title-product{
+        height: 219px;
+        background-color: #E09026;
+        margin-bottom: 20px;
+        border-radius: 5px;
+        padding: 40px;
+        margin-bottom: 50px;
+    }
+
+    #text-product{
+        height: 115px;
+        background-color: #E09026;
+        margin-bottom: 20px;
+        border-radius: 5px;
+        padding: 30px;
+    }
+
+    #product-image{
+        height: 599px;
+        margin-bottom: 70px;
+    }
+
+    #product-details{
+        height: 2600px;
+        background-color: #208281;
+        align-items: center;
+    }
+
+    #product-details-box-1{
+        height: 255px;
+    }
+
+    #product-details-box-2{
+        height: 1732px;
+    }
+ }
+
+ @media screen and (min-width:768px) {
+    #product-hero{
+        height: 768px;
+    }
+
+    .product-box{
+        height: 478px;
+        display: flex;
+        justify-content: space-between;
+        flex-direction: column;
+    }
+
+    #title-product{
+        height: 200px;
+        padding: 0;
+        margin: 0;
+        width: 57%;
+    }
+
+    #text-product{
+        height: 114px;
+        padding: 0;
+        margin: 0;
+    }
+
+    #product-image{
+        height: 478px;
+        margin-bottom: 0px;
+    }
+
+    #product-details{
+        height: 2315px;
+
+    }
+
+    #product-details-box-1{
+        height: 505px;
+    }
+
+    #product-details-box-2{
+        height: 700px;
+    }
+ }
+
+ @media screen and (min-width:1200px) {
+    #product-hero{
+        height: 800px;
+    }
+
+    .product-box{
+        height: 505px;
+    }
+
+    #title-product{
+        height: 282px;
+    }
+
+    #text-product{
+        height: 77px;
+    }
+
+    #product-image{
+        height: 505px;
+    }
+
+    #product-details{
+        height: 2333px;
+    }
+ }
+ @media screen and (min-width:1920px) {
+    #product-hero{
+        height: 950px;
+    }
+
+    .product-box{
+        height: 600px;
+    }
+
+    #title-product{
+        height: 375px;
+    }
+
+    #text-product{
+        height: 128px;
+    }
+
+    #product-image{
+        height: 600px;
+    }
+
+    #product-details{
+        height: 3056px;
+    }
+
+    #product-details-box-1{
+        height: 859px;
+    }
+
+    #product-details-box-2{
+        height: 1274px;
+    }
+}
+
+
+/* * lightbox rules here */ 
+
+
+#carol { background-position: -150px 0; }
+#clint { background-position: -300px 0; }
+#hulk { background-position: -450px 0; }
+#thor { background-position: -600px 0; }
+#widow { background-position: -750px 0; }
+
+.sprite:hover { background-position-y: -150px !important; }
+
+.lightbox { 
+    width: 100vw; /* vw = viewport width => screen width */
+    height: 100vh; /* vh = viewport height => screen height */
+
+    position: absolute;
+    top: 0;
+    left: 0;
+    color: white;
+
+    background-color: rgba(0, 0, 0, 0.85);
+    /* background-image: url('../images/aging_qb1ogf_c_scale\,w_1200.jpg');
+    background-repeat: no-repeat; */
+
+    background-size: 80vh; /* 55% of the viewport height */
+    background-position: bottom 130px left 30px;
+
+    z-index: 5000;
+
+    display: none;
+}
+
+#lightbox2 { background-image: url('../images/mashing_li03xc_c_scale\,w_1200.jpg'); }
+#lightbox3 { background-image: url('../images/malting1_afsl6d_c_scale\,w_1200.jpg'); }
+#lightbox4 { background-image: url('../images/fermentation_xwpghk_c_scale\,w_1200.jpg'); }
+#lightbox5 { background-image: url('../images/boiling_olifpr_c_scale\,w_1200.jpg'); }
+#lightbox6 { background-image: url('../images/aging_qb1ogf_c_scale\,w_1200.jpg'); }
+
+#photo1 #lightbox {
+    background-image: url('../images/mashing_li03xc_c_scale\,w_1200.jpg');
+}
+
+.lightbox_close {
+    position: relative;
+    top: 20px;
+    left: 95%;
+
+    color: white;
+    font-size: 3em;
+
+    text-decoration: none;
+
+    font-weight: bolder;
+}
+
+.lightbox_close:hover { opacity: 0.5; color: red; }
+
+.lightbox article {
+    width: 90%;
+    margin-left: 5%;
+    padding-top: 50px;
+}
+
+.lb_text, .lb_heading { text-align: left; }
+
+.lb_text {
+    line-height: 1.6 !important;
+    margin-left: 0;
+    padding-top: 2em;
+}
+
+/* turn the lightbox on using the :target pseudo selector */
+.lightbox:target { display: block; }
+
+
+.flex-container {
+    display: flex;
+}
+
+.flex-child {
+    flex: 1;
+} 
+
+
+
+#mashing_img:hover{
+    border: solid #E09026;
+    opacity: 0.5;
+}
+
+#beer_img:hover{
+    border: solid #E09026;
+    opacity: 0.5;
+}
+
+#malting_img:hover{
+    border: solid #E09026;
+    opacity: 0.5;
+}
+
+
+#fermetation_img:hover{
+    border: solid #E09026;
+    opacity: 0.5;
+}
+
+#boiling_img:hover{
+    border: solid #E09026;
+    opacity: 0.5;
+}
+
+#aging_img:hover{
+    border: solid #E09026;
+    opacity: 0.5;
+}
+
+#imageprocess{
+    width: 100%;
+}
+
+#text-lightbox{
+    margin-left: 40px;
+    font-size: 20px;
+}
