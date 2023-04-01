@@ -1,6 +1,6 @@
 # DYNAMIC TEAM PAGE
 
-Responsive dynamic website of Nut drink from the New Orleans based World Bottling Company.
+Dynamic website of Nut drink from the New Orleans based World Bottling Company.
 
 ## Contributing
 
