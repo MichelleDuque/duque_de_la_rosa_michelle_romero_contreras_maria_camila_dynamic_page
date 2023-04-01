@@ -1,8 +1,7 @@
 let process = {
     beer:{
         name: "Dr Nut",
-        bio: "Introducing Dr. Nut Almond, even our company started in New Orleans, USA, a few decades ago. This time we switched heads to Canada, working alongside local producers to discover our process and the way we achieve the best quality.",
-        imageprocess:"images/brewing_process_mobile.svg"
+        
     },
 
     mashing:{
