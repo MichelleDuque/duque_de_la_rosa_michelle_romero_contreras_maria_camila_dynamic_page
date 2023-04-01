@@ -876,18 +876,37 @@
 
  @media screen and (min-width:1200px) {
     
+    h2 {
+        font-family: 'Eczar', serif;
+        font-size: 200px;
+        text-align: center;
+        height: 120px;
+        color: #E2CBAC;
+    }
+
+    h3{
+        font-family: 'Eczar', serif;
+        font-size: 50px;
+        text-align: center;
+        height: 100px;
+        color: #E2CBAC;
+    }
+    
     #product-hero{
-        height: 800px;
+        height: 600px;
     }
 
     .product-box{
-        height: 505px;
+        height: 480px;
     }
 
     #title-product{
         font-family: 'Eczar', serif;
         font-size: 40px;
-        height: 282px;
+        height: 300px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
     }
 
     #text-product{
@@ -899,7 +918,7 @@
     }
 
     #product-details{
-        height: 2333px;
+        height: 1850px;
     }
  }
  @media screen and (min-width:1920px) {
