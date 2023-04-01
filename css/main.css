@@ -1,343 +1,26 @@
-@media screen and (min-width:320px) {
-
-    /* CSS Guide
-    1. Main Nav
-    2. Hero Image
-    3. Products
-    4. Video
-    5. History
-    6. Footer */
-
-    /* 1. Main Nav */
-
-    #main-header{
-        background-color: #E09026;
-        height: 83px;
-    }
-
-    #main-logo{
-        order: -1;
-        height: 83px;
-        margin: 0px;
-        display: flex;
-        align-items: center;
-        padding: 7px 0px 0px 0px;
-    }
-
-    #main-logo img{
-        width: 50%;
-    }
-
-    #burger-nav{
-        height: 83px;
-        margin: 0px;
-        padding: 0;
-    }
-
-
-    #burger-nav label img{
-        height: 83px;
-        transition: all .5s ease;
-        cursor: pointer;
-        width: 70%;
-    }
-    
-    #burger-nav input, #burger-con{
-        display: none;
-    }
-    
-    #burger-nav input:checked ~ #burger-con {
-        display: block;
-        transform: translateX(-80);
-        background-color: #822021;
-        width: 320px;
-    }
-    
-    #burger-nav input:checked ~ label img{
-        transform: rotate(-90deg);
-    }
-    
-    
-    #burger-nav ul{
-        margin: 0;
-        padding: 0;
-        list-style: none;
-    }
-    
-    #burger-nav li a {
-        display: block;
-        /* trbl */
-        padding: 10px 0 10px 0;
-        text-align: center;
-        color: #ffffff;
-    }
-    
-    #burger-nav li {
-        border-bottom: 1px solid #efefef;
-    }
-    
-    #burger-nav li:first-child {
-        border-top: 1px solid #efefef;
-    }
-    
-    #burger-nav:last-child {
-        margin-bottom: 10px;
-    }
-
-    #main-icon1{
-        display: none;
-    }
-    #main-icon2{
-        display: none;
-    }
-    #main-nav{
-        display: none;
-    }
-
-    /* 2. Hero Image */
-
-    #hero-image{
-        height: 529px;
-    }
-    #hero-con{
-        height: 805px;
-        background-color: #822021;
-        align-items: center;
-    }
-
-    /* 3. Products */
-
-    #products{
-        height: 1792px;
-        background-color: #208281;
-        align-items: center;
-    }
-    #products h2{
-        height: 88px;
-    }
-    .product-complete{
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        color: rgb(27, 27, 27);
-        text-align: center;
-        margin-top: 10px;
-        margin-bottom:10px;
-    }
-    .box-products{
-        height: 383px;
-        background-color: brown;
-        width: 100%;
-        border-radius: 5px;
-        margin-bottom: 25px;  
-        padding: 20px;
-    }
-    .button-products{
-        height: 58px;
-        background-color: #d94b4b;
-        width: 50%;
-        border-radius: 5px;
-        padding: 20px;
-    }
-
-    /* 4. Video */
-
-    #video-box{
-        padding: 0px;
-    }
-    #video-full{
-        height: 775px;
-        margin: 0px;
-        padding: 20px;
-    }
-
-    /* 5. History */
-
-    #history{
-        background-color: brown;
-        height: 977px;
-        align-items: center;
-    }
-    #history-title{
-        height: 81px;
-    }
-    #history-image{
-        height: 299px;
-    }
-    #text-history{
-        height: 215px;
-        background-color: bisque;
-        width: 100%;
-        margin-bottom: 20px;
-        border-radius: 5px;
-        padding: 20px;
-    }
-    #button-history{
-        height: 49px;
-        background-color: bisque;
-        width: 50%;
-        border-radius: 5px;
-        padding: 20px;
-    }
-
-    /* 6. Footer */
-
-    footer{
-        height: 727px;
-        background-color: blanchedalmond;
-        align-items: center;
-    }
-    #nav-footer{
-        height: 49px;
-    }
-    #footer-newsletter{
-        height: 49px;
-    }
-    #signup-footer{
-        height: 49px;
-    }
-    #button-footer{
-        height: 49px;
-    }
-    #text-footer{
-        height: 40px;
-    }
-    .socialmedia-footer{
-        height: 50px;
-    }
-    #terms-footer{
-        height: 48px;
-    }
-
-    /* Contact us */
-
-    #contact-us{
-        background-color: #208281;
-        height: 1193px;
-        align-items: center;
-    }
-
-    #contact-form{
-        height: 539px;
-    }
-
-    #contact-image{
-        height: 450px;
-    }
-}
-
-
-@media screen and (min-width:768px) {
-
-    /* CSS Guide
-    1. Main Nav
-    2. Products
-    3. Video
-    4. History
-    5. Footer */
-
-    /* 1. Main Nav */
-
-    #main-logo{
-        order: -1;
-    }
 
 
 
-    /* 2. Products */
-
-    #products{
-        height: 1144px;
-        background-color: #208281;
-    }
-    #product-title{
-        height: 88px;
-    }
-    .box-products{
-        height: 294px;
-        background-color: brown;
-    }
-    .button-products{
-        height: 58px;
-        background-color: #d94b4b;
-    }
-
-    /* 3. Video */
-
-    #video-full{
-        height: 788px;
-    }
-
-    /* 4. History */
-
-    #history{
-        background-color: brown;
-        height: 1200px;
-    }
-    #history-title{
-        height: 45px;
-    }
-    #history-image{
-        height: 389px;
-    }
-    #text-history{
-        height: 341px;
-    }
-    #button-history{
-        height: 77px;
-    }
-
-    /* 5. Footer */
-
-    footer{
-        height: 634px;
-        background-color: blanchedalmond;
-    }
-    #nav-footer{
-        height: 42px;
-    }
-    #footer-newsletter{
-        height: 42px;
-    }
-    #signup-footer{
-        height: 48px;
-    }
-    #button-footer{
-        height: 41px;
-    }
-    #text-footer{
-        height: 41px;
-    }
-    .socialmedia-footer{
-        height: 42px;
-    }
-    #terms-footer{
-        height: 42px;
-    }
-
-     /* Contact us */
-
-    #contact-us{
-        height: 1320px;
-    }
-    
-    #contact-image{
-        height: 586px;
-    }
-
-}
-
-@media screen and (min-width:1200px) {
 
       /* CSS Guide
     1. Main Nav
-    2. Hero Image
-    3. Products
-    4. Video
-    5. History
-    6. Footer */
+    2. Products
+    3. Footer
+    4. lightbox*/
 
     /* 1. Main Nav */
+
+    h2 {
+        font-family: 'Eczar', serif;
+        font-size: 40px;
+        color: #E2CBAC;
+    }
+
+    h3{
+        font-family: 'Eczar', serif;
+        font-size: 40px;
+        color: #E2CBAC;
+    }
 
     #main-header{
         background-color: #E09026;
@@ -349,27 +32,30 @@
     }
 
     #main-logo{
+        order: -1;
         height: 111px;
         display: flex;
         align-items: center;
-        padding-top: 35px;
-        padding-bottom: 24px;
+        margin: 0px;
+        padding: 0px 0px 0px 0px;
     }
 
     
     #main-logo img{
-        width: 50%;
+        width: 100%;
     }
 
     #main-icon1{
         display: block;
         height: 111px;
         margin: 0;
+        cursor: pointer;
     }
     #main-icon2{
         display: block;
         height: 111px;
         margin: 0;
+        cursor: pointer;
     }
     #main-nav{
         display: block;
@@ -415,17 +101,9 @@
 
 
 
-    /* 2. Hero Image */
 
-    #hero-image{
-        height: 505px;
-    }
-    #hero-con{
-        height: 800px;
-        background-color: #822021;
-    }
 
-    /* 3. Products */
+    /* 2. Products */
 
     #products{
         height: 1753px;
@@ -455,29 +133,55 @@
         display: flex;
         align-items: center;  
     }
-    /* 4. Video */
 
-    #video-full{
-        height: 972px;
-    }
-
-    /* 5. History */
-
-    #history{
+    #product-hero{
         background-color: brown;
-        height: 891px;
+        height: 600px;
+        align-items: center;
     }
-    #history-title{
-        height: 112px;
+
+    .product-box{
+        height: 480px;
+        display: flex;
+        justify-content: space-between;
+        flex-direction: column;
     }
-    #history-image{
-        height: 548px;
+
+    #product-details-box-1{
+        height: 555px;
+        display: flex;
+        align-items: center;
+        margin-top: 70px;
+        margin-bottom: 120px;
     }
-    #text-history{
-        height: 409px;
+
+    #title-product{
+        font-family: 'Eczar', serif;
+        font-size: 40px;
+        height: 300px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        padding: 0;
+        margin: 0;
+        width: 57%;
     }
-    #button-history{
-        height: 90px;
+
+    #text-product{
+        height: 77px;
+    }
+
+    #product-image{
+        height: 505px;
+    }
+
+    #product-details{
+        height: 1850px;
+        background-color: #208281;
+    }
+
+    #product-details-box-2 h3{
+        text-align: center;
     }
 
     /* 6. Footer */
@@ -513,10 +217,12 @@
 
     #footer-newsletter{
         height: 65px;
+        padding-left: 0;
     }
 
     #footer-newsletter h2{
         font-size: 20px;
+        color: #208281;
     }
 
     #signup-footer{
@@ -545,6 +251,7 @@
         background-color: #208281;
         border: none;
         width: 100%;
+        cursor: pointer;
     }
 
     #button-footer-send:hover {
@@ -556,6 +263,7 @@
     }
     .socialmedia-footer{
         height: 65px;
+        cursor: pointer;
     }
 
     #instagram, #facebook, #whatsapp{
@@ -614,351 +322,10 @@
         height: 586px;
     }
     
-}
 
-@media screen and (min-width:1920px) {
+ 
 
-      /* CSS Guide
-
-    1. Main Nav
-    2. Hero Image
-    2. Products
-    3. History
-    4. Footer */
-
-    /* 1. Main Nav */
-
-    #main-logo{
-        height: 111px;
-        display: flex;
-        align-items: center;
-        padding: 0;
-    }
-
-    #main-logo img{
-        width: 200%;
-    }
-
-    
-
-    /* 2. Hero Image */
-
-    #hero-image{
-        height: 1299px;
-    }
-    #hero-con{
-        height: 1594px;
-        background-color: #822021;
-    }
-
-    /* 2. Products */
-
-    #products{
-        height: 2063px;
-        background-color: #208281;
-    }
-    #product-title{
-        height: 136px;
-    }
-    .box-products{
-        height: 451px;
-        background-color: brown;
-    }
-    .button-products{
-        height: 125px;
-        background-color: #d94b4b;
-    }
-
-    /* 3. History */
-    #history{
-        background-color: brown;
-        height: 1086px;
-    }
-    #history-title{
-        height: 112px;
-    }
-    #history-image{
-        height: 548px;
-    }
-    #text-history{
-        height: 352px;
-    }
-    #button-history{
-        height: 124px;
-    }
-
-    /* 4. Footer */
-
-    footer{
-        height: 651px;
-        background-color: blanchedalmond;
-    }
-    #nav-footer{
-        height: 104px;
-        display: flex;
-        justify-content: flex-start;
-        align-items: center;
-        padding: 0;
-    }
-
-    #nav-footer ul li {
-        display:inline;
-        font-size: 22px;
-        margin-right: 35px;
-     } 
-     
-    #nav-footer ul li a {
-        color: #208281;
-     }
-
-    #footer-newsletter{
-        height: 104px;
-        display: flex;
-        align-items: center;
-        padding-left: 0;
-    }
-
-    #footer-newsletter h2{
-        font-size: 22px;
-    }
-
-    #signup-footer{
-        height: 104px;
-    }
-    #button-footer{
-        height: 104px;
-    }
-
-    #button-footer-send{
-        height: 104px;
-    }
-
-    .socialmedia-footer{
-        height: 104px;
-    }
-
-    #instagram, #facebook, #whatsapp{
-        border-radius: 30%;
-        padding: 0px 0px 0px 3px;
-    }
-
-    #facebook img{
-        width: 100%;
-    }
-
-
-    #whatsapp img{
-        width: 100%;
-    }
-
-
-    #instagram img{
-        width: 100%;
-    }
-
-    #terms-footer{
-        height: 104px;
-        display: flex;
-        align-items: center;
-    }
-
-    #terms-footer ul li {
-        font-size: 22px;
-        margin-right: 46px;
-     }
-
-     /* Contact us */
-
-    #contact-us{
-        height: 1270px;
-    }
-        
-    #contact-form{
-        height: 938px;
-    }
-        
-    #contact-image{
-        height: 938px;
-    }
-}
-
-
- /* Product */
-
- @media screen and (min-width:320px) {
-    #product-hero{
-        background-color: brown;
-        height: 1251px;
-        align-items: center;
-    }
-
-
-    #title-product{
-        height: 219px;
-        background-color: #E09026;
-        margin-bottom: 20px;
-        border-radius: 5px;
-        padding: 40px;
-        margin-bottom: 50px;
-    }
-
-    #text-product{
-        height: 115px;
-        background-color: #E09026;
-        margin-bottom: 20px;
-        border-radius: 5px;
-        padding: 30px;
-    }
-
-    #product-image{
-        height: 599px;
-        margin-bottom: 70px;
-    }
-
-    #product-details{
-        height: 2600px;
-        background-color: #208281;
-        align-items: center;
-    }
-
-    #product-details-box-1{
-        height: 255px;
-    }
-
-    #product-details-box-2{
-        height: 1732px;
-    }
- }
-
- @media screen and (min-width:768px) {
-    #product-hero{
-        height: 768px;
-    }
-
-    .product-box{
-        height: 478px;
-        display: flex;
-        justify-content: space-between;
-        flex-direction: column;
-    }
-
-    #title-product{
-        height: 200px;
-        padding: 0;
-        margin: 0;
-        width: 57%;
-    }
-
-    #text-product{
-        height: 114px;
-        padding: 0;
-        margin: 0;
-    }
-
-    #product-image{
-        height: 478px;
-        margin-bottom: 0px;
-    }
-
-    #product-details{
-        height: 2315px;
-
-    }
-
-    #product-details-box-1{
-        height: 505px;
-    }
-
-    #product-details-box-2{
-        height: 700px;
-    }
- }
-
- @media screen and (min-width:1200px) {
-    
-    h2 {
-        font-family: 'Eczar', serif;
-        font-size: 200px;
-        text-align: center;
-        height: 120px;
-        color: #E2CBAC;
-    }
-
-    h3{
-        font-family: 'Eczar', serif;
-        font-size: 50px;
-        text-align: center;
-        height: 100px;
-        color: #E2CBAC;
-    }
-    
-    #product-hero{
-        height: 600px;
-    }
-
-    .product-box{
-        height: 480px;
-    }
-
-    #title-product{
-        font-family: 'Eczar', serif;
-        font-size: 40px;
-        height: 300px;
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-    }
-
-    #text-product{
-        height: 77px;
-    }
-
-    #product-image{
-        height: 505px;
-    }
-
-    #product-details{
-        height: 1850px;
-    }
- }
- @media screen and (min-width:1920px) {
-    #product-hero{
-        height: 950px;
-    }
-
-    .product-box{
-        height: 600px;
-    }
-
-    #title-product{
-        height: 375px;
-    }
-
-    #text-product{
-        height: 128px;
-    }
-
-    #product-image{
-        height: 600px;
-    }
-
-    #product-details{
-        height: 3056px;
-    }
-
-    #product-details-box-1{
-        height: 549px;
-    }
-
-    #product-details-box-2{
-        height: 1274px;
-    }
-}
-
-
-/* * lightbox rules here */ 
-
-
+/*4. lightbox*/ 
 
 .lightbox { 
     width: 100vw; /* vw = viewport width => screen width */
@@ -1050,7 +417,7 @@
 }
 
 #imageprocess{
-    width: 100%;
+    width: 90%;
 }
 
 #text-lightbox{

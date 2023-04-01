@@ -21,7 +21,7 @@
 <body>
     <h1 class="hidden">Dr Nut Official Website</h1>
     <header class="grid-con" id="main-header">
-        <nav class="box col-span-full m-col-start-5 m-col-end-10 l-col-start-4 l-col-end-10 xl-col-start-4 xl-col-end-10" id="main-nav">
+        <nav class="box l-col-start-4 l-col-end-10" id="main-nav">
             <h2 class="hidden">Header Navigation</h2> 
             <ul>
                 <li> <a href="index.html" class="active">Home</a></li>
@@ -31,32 +31,15 @@
                 <li> <a href="contact.html">Contact</a></li>
             </ul>
         </nav>
-        <div class="box col-start-1 col-end-3 m-col-start-2 m-col-end-5 l-start-end-2 l-col-end-4 xl-col-start-2 xl-col-end-3" id="main-logo">
+        <div class="box l-start-end-1 l-col-end-3" id="main-logo">
             <a href="index.html"><img src="images/logo.svg" alt="Logo DR Nuts"></a>
         </div>
 
-        <div class="box l-col-start-10 l-col-end-11 box xl-col-start-10 xl-col-end-11" id="main-icon1">
+        <div class="box l-col-start-10 l-col-end-11" id="main-icon1">
             <img src="images/search.svg" alt="Search icon">
         </div>
-        <div class="box l-col-start-11 l-col-end-12 box xl-col-start-11 xl-col-end-12" id="main-icon2">
+        <div class="box l-col-start-11 l-col-end-12 box" id="main-icon2">
             <img src="images/shop-cart.svg" alt="Shop icon">
-        </div>
-
-        <div class="box col-start-4 col-end-4 m-col-start-10 m-col-end-12" id="burger-nav">
-            <h2 class="hidden">Main Navigation</h2>
-            <input type="checkbox" id="hamburger">
-            <label for="hamburger">
-                <img src="images/burger.svg" alt="hamburger menu icon">
-            </label>
-            <div id="burger-con">
-                <ul>
-                    <li> <a href="index.html" class="active">Home</a></li>
-                    <li> <a href="products.html">Products</a></li>
-                    <li> <a href="gallery.html">Gallery</a></li>
-                    <li> <a href="history.html">History</a></li>
-                    <li> <a href="contact.html">Contact</a></li>
-                </ul>
-            </div>
         </div>
     </header>
 
@@ -64,14 +47,14 @@
 
         <section class="grid-con" id="product-hero">
             <h2 class="hidden">Dr Nut Brewing Process</h2>
-            <div class="col-span-full m-col-start-2 m-col-end-7 l-col-start-2 l-col-end-7 xl-col-start-2 xl-col-end-7 product-box">
+            <div class="l-col-start-2 l-col-end-7 product-box">
                 <div id="title-product">
                     <h2>Dr. Nut</h2>
                     <h3>Brewing Process</h2>
                 </div>
                 <div id="text-product"><h4>Discover Dr. Nut brewing process</h4></div>
             </div>
-            <div class="box  col-span-full m-col-start-8 m-col-end-12 l-col-start-8 l-col-end-12 xl-col-start-8 xl-col-end-12" id="product-image"><img
+            <div class="box l-col-start-8 l-col-end-12" id="product-image"><img
                 sizes="(max-width: 322px) 100vw, 322px"
                 srcset="
                 images/triada_busyjv_c_scale,w_200.png 200w,
@@ -83,7 +66,7 @@
 
         <section class="grid-con" id="product-details">
             <h2 class="hidden">Product Details</h2>
-            <div class="box col-start-2 col-end-4 m-col-start-4 m-col-end-10 l-col-start-4 l-col-end-10 xl-col-start-4 xl-col-end-10" id="product-details-box-1"><img
+            <div class="box l-col-start-4 l-col-end-10" id="product-details-box-1"><img
                 sizes="(max-width: 1600px) 100vw, 1600px"
                 srcset="
                 images/IMG2---dynamic_tktw1u_c_scale,w_200.jpg 200w,
@@ -92,25 +75,25 @@
                 images/IMG2---dynamic_tktw1u_c_scale,w_1600.jpg 1600w"
                 src="images/IMG2---dynamic_tktw1u_c_scale,w_1600.jpg"
                 alt="Dr nut ad"></div>
-            <div class="col-span-full m-col-start-2 m-col-end-12 l-col-start-2 l-col-end-12 xl-col-start-2 xl-col-end-12 characters" id="product-details-box-2">
+            <div class="l-col-start-2 l-col-end-12 characters" id="product-details-box-2">
                 <h3>BREWING PROCESS</h3>   
                     <div>
                             <a href="#lightbox" id="photo1" data-member="beer" data-member="bgImg" class="bgImg" >
                                 <div class="sprite" id="beer"></div>
-                                <img src="images/beerprocess-03.svg" srcset="images/Artboard1-mobile.svg 320px, images/beerprocess-03.svg 768px" alt="beer" id="beer_img">
+                                <img src="images/beerprocess-03.svg" alt="beer" id="beer_img">
                             </a>
                          <div>
                         <div class="flex-container">
                         <div id="process1" class="flex-child">
                             <a href="#lightbox" data-member="mashing" class="bgImg" data-member="bgImg" class="bgImg">
                                 <div class="sprite" id="mashing"></div>
-                                <img srcset="images/Artboard4-mobile.svg 320px, images/beerprocess_Artboard1-01.svg 768px" src="images/beerprocess_Artboard1-01.svg" alt="mashing" class="size-process" id="mashing_img">
+                                <img src="images/beerprocess_Artboard1-01.svg" alt="mashing" class="size-process" id="mashing_img">
                             </a>
                         </div>
                         <div id="process2" class="flex-child">   
                             <a href="#lightbox" data-member="malting" class="bgImg">
                             <div class="sprite" id="malting"></div>
-                            <img srcset="images/Artboard3-mobile.svg 320px, images/beerprocess-02.svg 768px" src="images/beerprocess-02.svg" alt="malting" class="size-process" id="malting_img">
+                            <img src="images/beerprocess-02.svg" alt="malting" class="size-process" id="malting_img">
                             </a>
                         </div>
                         </div>  
@@ -118,7 +101,7 @@
                             <div class="flex-child">
                                 <a href="#lightbox"  data-member="fermentation" class="bgImg">
                                     <div class="sprite" id="fermentation"></div>
-                                    <img srcset="images/Artboard5-mobile.svg 320px, images/beerprocess_Artboard1-05.svg 768px" src="images/beerprocess_Artboard1-05.svg" alt="fermetation" id="fermetation_img">
+                                    <img src="images/beerprocess_Artboard1-05.svg" alt="fermetation" id="fermetation_img">
                                 </a>
                             </div>
                             <div class="flex-child">
@@ -133,13 +116,7 @@
                         <div>
                             <a href="#lightbox" data-member="aging" class="bgImg">
                                 <div class="sprite" id="aging"></div>
-                                <img srcset="images/Artboard7-mobile.svg 320w,
-                                images/beerprocess-04.svg 768w,
-                                images/beerprocess-04.svg 1024w"
-                                sizes="(max-width: 320px) 280px,
-                               (max-width: 768px) 720px,
-                               1024px" 
-                               src="images/beerprocess-04.svg" alt="aging" id="aging_img">
+                                <img src="images/beerprocess-04.svg" alt="aging" id="aging_img">
                             </a>
                         </div>
                 </div>
@@ -148,7 +125,7 @@
 
 
     <footer class="grid-con">
-        <nav class="box col-start-1 col-end-4 m-col-start-2 m-col-end-9 l-col-start-2 l-col-end-8 xl-col-start-2 xl-col-end-8" id="nav-footer"><h2 class="hidden">Footer Navigation</h2>
+        <nav class="box l-col-start-2 l-col-end-8" id="nav-footer"><h2 class="hidden">Footer Navigation</h2>
             <ul>
                 <li> <a href="index.html">Home</a></li>
                 <li> <a href="products.html">Products</a></li>
@@ -158,24 +135,23 @@
             </ul>
         </nav>
         
-        <div class="box col-start-1 col-end-3 m-col-start-2 m-col-end-6 l-col-start-2 l-col-end-4 xl-col-start-2 xl-col-end-4" id="footer-newsletter"><h2>Newsletter</h2></div>
-        <div class="box col-span-full m-col-start-2 m-col-end-12 l-col-start-2 l-col-end-6 xl-col-start-2 xl-col-end-6" id="signup-footer">
+        <div class="box l-col-start-2 l-col-end-4" id="footer-newsletter"><h2>Newsletter</h2></div>
+        <div class="box l-col-start-2 l-col-end-6" id="signup-footer">
             <label for="email" class="hidden">Email Address: </label>
             <input type="email" id="email" name="email" placeholder="Your email here"></div>
-        <div class="box col-start-3 col-end-5 m-col-start-10 m-col-end-12 l-col-start-6 l-col-end-8 xl-col-start-6 xl-col-end-8" id="button-footer">
+        <div class="box l-col-start-6 l-col-end-8" id="button-footer">
             <button id="button-footer-send">SEND</button>
         </div>
-        <div class="box col-start-3 col-end-5 m-col-start-10 m-col-end-12" id="text-footer">Stay in Touch</div>
-        <div class="box col-start-2 col-end-2 m-col-start-9 m-col-end-9 l-col-start-9 l-col-end-9 xl-col-start-9 xl-col-end-9 socialmedia-footer" id="instagram">
+        <div class="box l-col-start-9 l-col-end-9 socialmedia-footer" id="instagram">
             <img src="images/instagram.svg" alt="Instagram icon">
         </div>
-        <div class="box col-start-3 col-end-3 m-col-start-10 m-col-end-10 l-col-start-10 l-col-end-10 xl-col-start-10 xl-col-end-10 socialmedia-footer" id="facebook">
+        <div class="box l-col-start-10 l-col-end-10 socialmedia-footer" id="facebook">
             <img src="images/facebook.svg" alt="Facebook icon">
         </div>
-        <div class="box col-start-4 col-end-4 m-col-start-11 m-col-end-11 l-col-start-11 l-col-end-11 xl-col-start-11 xl-col-end-11 socialmedia-footer" id="whatsapp">
+        <div class="box l-col-start-11 l-col-end-11 socialmedia-footer" id="whatsapp">
             <img src="images/whatsapp.svg" alt="Whatsapp icon">
         </div>
-        <div class="box col-start-2 col-end-5 m-col-start-6 m-col-end-12 l-col-start-6 l-col-end-12 xl-col-start-6 xl-col-end-12 socialmedia-footer" id="terms-footer">
+        <div class="box l-col-start-6 l-col-end-12 socialmedia-footer" id="terms-footer">
             <ul>
             <li> <a href="terms.html">Terms and Conditions</a></li>
             <li> <a href="policy.html">Privacy Policy</a></li>
