@@ -3,7 +3,6 @@ let process = {
         name: "Dr Nut",
         
     },
-
     mashing:{
         name: "Mashing",
         bio: "The 'mash' is a porridge-like mixture made from water and crushed grains. Specially bred strains of malted barley make malt from Montreal, Canada. We do support the Canadian craft brewers association through all supply chains. Our malting process degrades the protein matrix binding the starch granules within a temperature range of 35°C to 45°C (95°F to 113°F). Glucanases have an ideal temperature of 45°C-55°C (113°F-131°F) and break down the hemicelluloses gums, whereas amylases break down the starch granules and perform best at 61°C–67°C (141.8°F-152.6°F).",
