@@ -875,6 +875,7 @@
  }
 
  @media screen and (min-width:1200px) {
+    
     #product-hero{
         height: 800px;
     }
@@ -884,6 +885,8 @@
     }
 
     #title-product{
+        font-family: 'Eczar', serif;
+        font-size: 40px;
         height: 282px;
     }
 
